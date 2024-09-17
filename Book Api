@@ -1,0 +1,33 @@
+# Book Management API
+
+## Endpoints
+
+### GET /books
+- **Description:** Retrieve a list of books
+- **Response:**
+  ```json
+  [
+    {
+      "id": 1,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "publishedDate": "1960-07-11",
+      "genre": "Fiction"
+    }
+  ]
+
+
+{
+  "title": "1984",
+  "author": "George Orwell",
+  "publishedDate": "1949-06-08",
+  "genre": "Dystopian"
+}
+
+{
+  "id": 2,
+  "title": "1984",
+  "author": "George Orwell",
+  "publishedDate": "1949-06-08",
+  "genre": "Dystopian"
+}
